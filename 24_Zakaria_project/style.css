@@ -1,0 +1,166 @@
+
+body{
+    font-family: sans-serif;
+}
+/* Style the header */
+.header {
+  background-color: #55c90d;
+  padding: 10px;
+  text-align: right;
+  -ms-text-size-adjust: auto;
+  color:#f2f2f2;
+}
+.himg{
+  float: left;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #222f3e;
+  position:sticky;
+  top:0;
+}
+.img{
+  float: right;
+  box-sizing: border-box; 
+  display: flex;
+
+}
+.img_h{
+  float:right;
+  box-sizing: border-box; 
+  display: flex;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width:33%;
+  box-sizing: border-box;
+  font-size:17px;
+  font-weight:bold;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/*design for announcement*/
+.announce{
+	background-color:#c8d6e5;*/
+	/*background-image:linear-gradient(to bottom right, #7efff5, #18dcff, #5758BB);*/
+
+  <p style="background-image: url('img_girl.jpg');"> 
+
+  <p style="background-image: url('sea.jpeg');"> 
+	width:80%;
+	margin:auto;
+	margin-top:25px !important;
+	padding:20px;
+    border-radius: 7px;
+    font-size: 19px;
+    font-family: sans-serif;
+	
+}
+
+/*Design for apply form*/
+
+
+.apply {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:40%;
+  margin:auto;
+  margin-top:20px;
+}
+input[type=text],
+ input[type=date],
+ input[type=email],
+ select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+ display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:17px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*table design for courses*/
+
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+table, td, th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+/*Design for footer*/
+.footer {
+  width: 97%;
+  padding:20px;
+  background-color: #0abde3;
+  color: white;
+  text-align: center;
+  margin-top:20px;
+  
+}
+
+
+/*image gallery*/
+
+.gallery{
+	width:80%;
+	margin:auto;
+	margin-top:20px;
+	background-color:#f4f4f4;
+	padding:15px;
+	text-align:center;
+	border-radius:6px;
+}
+
+.gallery img{
+	height:200px;
+	width:230px;
+	border-radius:6px;
+	margin:10px;
+
+}
